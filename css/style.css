@@ -1,0 +1,55 @@
+body {
+ background-color: #FFFCF9;
+ overflow: hidden;
+ text-align: center;
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	display:flex;
+}
+
+/* ----------------- */
+/* ANIMATION */
+/* ----------------- */
+#animationWindow {
+ width: 100%;
+ height: 50%;
+ display:flex;
+}
+
+#anim-o{
+	border: 1px dashed goldenrod;
+}
+#anim-l{
+	border: 1px dashed goldenrod;
+}
+
+/* ----------------- */
+/* BUTTONS */
+/* ----------------- */
+#buttonPanel {
+	margin-top: 100px;
+	display:flex;
+	flex-direction: column;
+}
+
+#buttonPanel button {
+	margin: 4px;
+}
+
+
+
+#rareColor path {
+	fill:#dc3c56; 
+	stroke:#dc3c56;
+}
