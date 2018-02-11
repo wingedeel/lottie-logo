@@ -1,3 +1,2 @@
-Chris Gannon
-Use Greensock to control a Bodymovin animation
-https://www.youtube.com/watch?v=HeY9qGUT3zQ&feature=youtu.be
+Load an After Effects exported JSON file using Bodymovin.
+User interaction controls the playback.
