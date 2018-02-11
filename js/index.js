@@ -3,19 +3,74 @@
 
 
 var animationWindow = document.querySelector('#animationWindow');
-// var ele_anim_o = document.querySelector('#anim-o');
-// var animData_o = {
-// 		wrapper: ele_anim_o,
-// 		animType: 'svg',
-// 		loop: true,
-// 		prerender: true,
-// 		autoplay: false,
-// 		path: 'json/logo-o.json'
-// 	}, anim, tl;
+var ele_anim_o = document.querySelector('#anim-o');
+var animData_o = {
+		wrapper: ele_anim_o,
+		animType: 'svg',
+		loop: true,
+		prerender: true,
+		autoplay: false,
+		path: 'json/logo-o.json'
+	}, anim_o, tl;
 
-// var anim = bodymovin.loadAnimation(animData_o);
-// anim.setSpeed(1);
-// anim.play();
+var anim_o = bodymovin.loadAnimation(animData_o);
+anim_o.setSpeed(0.5);
+
+
+var ele_anim_i = document.querySelector('#anim-i');
+var animData_i = {
+		wrapper: ele_anim_i,
+		animType: 'svg',
+		loop: false,
+		prerender: true,
+		autoplay: false,
+		path: 'json/logo-i.json'
+	}, anim_i, tl;
+
+var anim_i = bodymovin.loadAnimation(animData_i);
+anim_i.setSpeed(0.5);
+
+
+var ele_anim_c = document.querySelector('#anim-c');
+var animData_c = {
+		wrapper: ele_anim_c,
+		animType: 'svg',
+		loop: false,
+		prerender: true,
+		autoplay: false,
+		path: 'json/logo-c.json'
+	}, anim_c, tl;
+
+var anim_c = bodymovin.loadAnimation(animData_c);
+anim_c.setSpeed(0.5);
+
+var ele_anim_e = document.querySelector('#anim-e');
+var animData_e = {
+		wrapper: ele_anim_e,
+		animType: 'svg',
+		loop: false,
+		prerender: true,
+		autoplay: false,
+		path: 'json/logo-e.json'
+	}, anim_e, tl;
+
+var anim_e = bodymovin.loadAnimation(animData_e);
+anim_e.setSpeed(0.5);
+
+
+var ele_anim_dot = document.querySelector('#anim-dot');
+var animData_dot = {
+		wrapper: ele_anim_dot,
+		animType: 'svg',
+		loop: false,
+		prerender: true,
+		autoplay: false,
+		path: 'json/logo-dot.json'
+	}, anim_dot, tl;
+
+var anim_dot = bodymovin.loadAnimation(animData_dot);
+anim_dot.setSpeed(0.5);
+
 
 var ele_anim_l = document.querySelector('#anim-l');
 var animData_l = {
@@ -29,9 +84,7 @@ var animData_l = {
 
 var anim_l = bodymovin.loadAnimation(animData_l);
 anim_l.setSpeed(0.5);
-
-
-
+	
 //---------------------------
 const btnPlay = document.getElementById('play');
 const btnPause = document.getElementById('pause');

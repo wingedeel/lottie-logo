@@ -25,14 +25,16 @@ html {
  width: 100%;
  height: 50%;
  display:flex;
+ position:relative;
 }
 
+.anim-letter{
+	border: 1px dashed goldenrod;
+	position:absolute;
+}
 #anim-o{
-	border: 1px dashed goldenrod;
 }
-#anim-l{
-	border: 1px dashed goldenrod;
-}
+
 
 /* ----------------- */
 /* BUTTONS */
