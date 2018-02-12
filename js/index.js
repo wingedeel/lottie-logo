@@ -11,7 +11,7 @@ var animData_o = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-o.json'
-	}, anim_o, tl;
+	};
 
 var anim_o = bodymovin.loadAnimation(animData_o);
 anim_o.setSpeed(0.5);
@@ -25,7 +25,7 @@ var animData_i = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-i.json'
-	}, anim_i, tl;
+	};
 
 var anim_i = bodymovin.loadAnimation(animData_i);
 anim_i.setSpeed(0.5);
@@ -39,7 +39,7 @@ var animData_c = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-c.json'
-	}, anim_c, tl;
+	};
 
 var anim_c = bodymovin.loadAnimation(animData_c);
 anim_c.setSpeed(0.5);
@@ -52,7 +52,7 @@ var animData_e = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-e.json'
-	}, anim_e, tl;
+	};
 
 var anim_e = bodymovin.loadAnimation(animData_e);
 anim_e.setSpeed(0.5);
@@ -66,7 +66,7 @@ var animData_dot = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-dot.json'
-	}, anim_dot, tl;
+	};
 
 var anim_dot = bodymovin.loadAnimation(animData_dot);
 anim_dot.setSpeed(0.5);
@@ -80,7 +80,7 @@ var animData_l = {
 		prerender: true,
 		autoplay: false,
 		path: 'json/logo-l.json'
-	}, anim_l, tl;
+	};
 
 var anim_l = bodymovin.loadAnimation(animData_l);
 anim_l.setSpeed(0.5);
@@ -94,19 +94,11 @@ const btnMinusY = document.getElementById('minusY');
 const btnColor = document.getElementById('color');
 const btnColorOrig = document.getElementById('colorOrig');
 
-var anim = anim_l;
+
 
 //---------------------------
 
-ele_anim_l.addEventListener('mouseover', function() {
-		anim.playSegments([0,75], true);
-		console.log('mouseover');
-});
 
-ele_anim_l.addEventListener('mouseout', function() {
-		anim.playSegments([75,150], true);
-		console.log('mouseout');
-});
 
 
 btnPlay.addEventListener('click', function() {
@@ -135,3 +127,50 @@ btnColorOrig.addEventListener('click', function() {
 	TweenMax.to(animationWindow, 0.5, {backgroundColor:"#ffffff"});
 });
 
+
+//---------------------------
+// HOVER AREAs
+// ele_anim_l.addEventListener('mouseover', function() {
+// 		anim.playSegments([0,75], true);
+// 		console.log('mouseover');
+// });
+
+// ele_anim_l.addEventListener('mouseout', function() {
+// 		anim.playSegments([75,150], true);
+// 		console.log('mouseout');
+// });
+
+const hover_o = document.getElementById('hover-o');
+const hover_l = document.getElementById('hover-l');
+const hover_i = document.getElementById('hover-i');
+
+hover_o.addEventListener('mouseover', function() {
+		anim_o.playSegments([0,75], true);
+		console.log('mouseover anim_o');
+});
+
+hover_o.addEventListener('mouseout', function() {
+		anim_o.playSegments([0,75], true);
+		console.log('mouseout anim_o');
+});
+//---------------------------
+hover_l.addEventListener('mouseover', function() {
+		anim_l.playSegments([0,75], true);
+		console.log('mouseover anim_l');
+});
+
+hover_l.addEventListener('mouseout', function() {
+		anim_l.playSegments([0,75], true);
+		console.log('mouseout anim_l');
+});
+
+//---------------------------
+hover_i.addEventListener('mouseover', function() {
+		anim_i.playSegments([0,75], true);
+		console.log('mouseover anim_i');
+});
+
+hover_i.addEventListener('mouseout', function() {
+		anim_i.playSegments([0,75], true);
+		console.log('mouseout anim_i');
+});

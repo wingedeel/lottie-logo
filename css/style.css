@@ -26,15 +26,51 @@ html {
  height: 50%;
  display:flex;
  position:relative;
+ margin-top: 5rem;
 }
 
 .anim-letter{
 	border: 1px dashed goldenrod;
+	opacity:0.1;
 	position:absolute;
 }
 #anim-o{
 }
 
+/* ----------------- */
+/* HOVER AREAS */
+/* ----------------- */
+.hover-areas {
+	/*position:relative;*/
+	border:1px solid red;
+}
+.hover {
+	position:absolute;
+	border:1px solid grey;
+	top:0;
+	width:50px;
+	height:100px;
+	background-color:lightgrey;
+}
+
+#hover-o{
+	left:100px;
+}
+#hover-l{
+	left:200px;
+}
+#hover-i{
+	left:300px;
+}
+#hover-c{
+	left:400px;
+}
+#hover-e{
+	left:500px;
+}
+#hover-dot{
+	left:600px;
+}
 
 /* ----------------- */
 /* BUTTONS */
