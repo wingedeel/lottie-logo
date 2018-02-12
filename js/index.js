@@ -143,34 +143,67 @@ btnColorOrig.addEventListener('click', function() {
 const hover_o = document.getElementById('hover-o');
 const hover_l = document.getElementById('hover-l');
 const hover_i = document.getElementById('hover-i');
+const hover_c = document.getElementById('hover-c');
+const hover_e = document.getElementById('hover-e');
+const hover_dot = document.getElementById('hover-dot');
 
 hover_o.addEventListener('mouseover', function() {
-		anim_o.playSegments([0,75], true);
+		//anim_o.playSegments([0,11], true);
 		console.log('mouseover anim_o');
 });
 
 hover_o.addEventListener('mouseout', function() {
-		anim_o.playSegments([0,75], true);
+		//anim_o.playSegments([78,88], true);
 		console.log('mouseout anim_o');
 });
 //---------------------------
 hover_l.addEventListener('mouseover', function() {
-		anim_l.playSegments([0,75], true);
+		anim_l.playSegments([0,11], true);
 		console.log('mouseover anim_l');
 });
 
 hover_l.addEventListener('mouseout', function() {
-		anim_l.playSegments([0,75], true);
+		anim_l.playSegments([78,88], true);
 		console.log('mouseout anim_l');
 });
 
 //---------------------------
 hover_i.addEventListener('mouseover', function() {
-		anim_i.playSegments([0,75], true);
+		anim_i.playSegments([13,25], true);
 		console.log('mouseover anim_i');
 });
 
 hover_i.addEventListener('mouseout', function() {
-		anim_i.playSegments([0,75], true);
+		anim_i.playSegments([90,100], true);
 		console.log('mouseout anim_i');
+});
+//---------------------------
+hover_c.addEventListener('mouseover', function() {
+		anim_c.playSegments([25,39], true);
+		console.log('mouseover anim_c');
+});
+
+hover_c.addEventListener('mouseout', function() {
+		anim_c.playSegments([102,113], true);
+		console.log('mouseout anim_c');
+});
+//---------------------------
+hover_e.addEventListener('mouseover', function() {
+		anim_e.playSegments([41,54], true);
+		console.log('mouseover anim_e');
+});
+
+hover_e.addEventListener('mouseout', function() {
+		anim_e.playSegments([115,127], true);
+		console.log('mouseout anim_e');
+});
+//---------------------------
+hover_dot.addEventListener('mouseover', function() {
+		anim_dot.playSegments([56,69], true);
+		console.log('mouseover anim_dot');
+});
+
+hover_dot.addEventListener('mouseout', function() {
+		anim_dot.playSegments([129,141], true);
+		console.log('mouseout anim_dot');
 });
