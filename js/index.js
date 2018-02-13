@@ -2,7 +2,7 @@
 // Based on this pen: https://codepen.io/celli/pen/NjvrGW
 
 
-var animationWindow = document.querySelector('#animationWindow');
+var animationWindow = document.querySelector('#animation-window');
 var ele_anim_o = document.querySelector('#anim-o');
 var animData_o = {
 		wrapper: ele_anim_o,
