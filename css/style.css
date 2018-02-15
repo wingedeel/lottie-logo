@@ -1,7 +1,7 @@
 #container {
-	width: 100%;
-	margin: 0 auto;
-	display:flex;
+	width: 1000px;
+	/*margin: 0 auto;*/
+	border: 1px solid orange;
 }
 
 /* ----------------- */
@@ -12,80 +12,61 @@
  display:flex;
  position:relative;
  margin-top: 5rem;
+ /*border: 1px solid grey;*/
 }
 
 .anim-letter{
 	opacity:1;
+	width:100%;
 	position:absolute;
-	width:75%;
+	border: 1px solid darkgrey;
 }
 
 /* ----------------- */
 /* HOVER AREAS */
 /* ----------------- */
 #hover-container {
-	border:1px solid red;
 }
 .hover {
 	position:absolute;
-	border:1px solid grey;
 	height:200px;
 	background-color:lightgrey;
 	opacity: 0;
 }
 
 #hover-o{
-	top:280px;
-	left:320px;
-	width:220px;
-}
-#hover-l{
-	top:280px;
-	left:565px;
-	width:40px;
+	top:258px;
+	left:145px;
+	width:215px;
 	height:200px;
 }
+#hover-l{
+	top:264px;
+	left:379px;
+	width:46px;
+	height:190px;
+}
 #hover-i{
-	top:330px;
-	left:650px;
-	width:50px;
-	height:150px;
+	top:316px;
+	left:457px;
+	width:47px;
+	height:136px;
 }
 #hover-c{
-	top:340px;
-	left:720px;
-	width:120px;
-	height:150px;
+	top:321px;
+	left:524px;
+	width:117px;
+	height:139px;
 }
 #hover-e{
-	top:340px;
-	left:860px;
-	width:140px;
-	height:150px;
+	top:320px;
+	left:648px;
+	width:144px;
+	height:140px;
 }
 #hover-dot{
-	top:430px;
-	left:1020px;
-	width:50px;
-	height:50px;
-}
-
-/* ----------------- */
-/* BUTTONS */
-/* ----------------- */
-#button-container {
-	margin-top: 100px;
-	display:flex;
-	flex-direction: column;
-}
-
-#buttonPanel button {
-	margin: 4px;
-}
-
-
-
-#rareColor path {
-	fill:#dc3c56; 
-	stroke:#dc3c56;
+	top:413px;
+	left:800px;
+	width:46px;
+	height:46px;
 }
