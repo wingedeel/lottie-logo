@@ -1,4 +1,4 @@
-const globalSpeed = 1;
+const globalSpeed = 0.75;
 
 const projectData = 
 [
